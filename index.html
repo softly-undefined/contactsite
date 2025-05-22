@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f0e6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .team-member {
+            display: flex;
+            align-items: center;
+            padding: 2rem 0;
+            border-bottom: 1px solid #e0d6c2;
+        }
+
+        .team-member:last-child {
+            border-bottom: none;
+        }
+
+        .member-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            flex-shrink: 0;
+            border-radius: 4px;
+        }
+
+        .member-info {
+            padding: 0 2rem;
+            flex-grow: 1;
+        }
+
+        .member-name {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        .member-quote {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: #3498db;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .team-member {
+                flex-direction: column;
+                text-align: center;
+                padding: 2rem 0;
+            }
+
+            .member-image {
+                width: 100%;
+                max-width: 300px;
+                height: 300px;
+                margin-bottom: 1rem;
+            }
+
+            .member-info {
+                padding: 0;
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        
+        <!-- Chris -->
+        <div class="team-member">
+            <img src="pictures/chris.jpg" alt="Chris" class="member-image">
+            <div class="member-info">
+                <h2 class="member-name">Chris</h2>
+                <p class="member-quote">"Innovation is the key to success."</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/chris" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Eric -->
+        <div class="team-member">
+            <img src="pictures/eric.png" alt="Eric" class="member-image">
+            <div class="member-info">
+                <h2 class="member-name">Eric</h2>
+                <p class="member-quote">"Indescribable."</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/eric" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hudson -->
+        <div class="team-member">
+            <img src="pictures/hudson.jpg" alt="Hudson" class="member-image">
+            <div class="member-info">
+                <h2 class="member-name">Hudson</h2>
+                <p class="member-quote">"Dream big, work hard."</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/hudson" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jimmy -->
+        <div class="team-member">
+            <img src="pictures/jimmy.jpg" alt="Jimmy" class="member-image">
+            <div class="member-info">
+                <h2 class="member-name">Jimmy</h2>
+                <p class="member-quote">"Success is a journey, not a destination."</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/chris" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Phillip -->
+        <div class="team-member">
+            <img src="pictures/phillip.jpg" alt="Phillip" class="member-image">
+            <div class="member-info">
+                <h2 class="member-name">Phillip</h2>
+                <p class="member-quote">"Excellence is not an act, but a habit."</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/phillip" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Blog</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
